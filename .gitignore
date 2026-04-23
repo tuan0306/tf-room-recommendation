@@ -1,0 +1,25 @@
+# Dữ liệu
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Kết quả huấn luyện (Sản phẩm của AI)
+saved_models/
+logs/
+*.keras
+*.h5
+*.pb
+
+# Môi trường Python (Rác hệ thống)
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.ipynb_checkpoints/
+
+# Hệ điều hành 
+.DS_Store
+Thumbs.db
